@@ -27,6 +27,7 @@ MongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
                 assert.strictEqual(err, null);
                 console.log('Found Documents:', docs);
 
+                
                 client.close();
             });
         });
